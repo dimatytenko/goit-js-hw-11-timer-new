@@ -1,0 +1,15 @@
+body {
+  background-color: rgba(220, 39, 19, 0.34);
+  text-align: center;
+}
+.field {
+  display: inline-block;
+  margin-top: 300px;
+  padding: 30px;
+  font-size: 50px;
+}
+.value {
+  padding: 10px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}

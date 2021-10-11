@@ -34,16 +34,6 @@ class CountdownTimer {
     }, 1000);
   }
 
-  // getTime(time) {
-  //   const days = this.pad(Math.floor(time / (1000 * 60 * 60 * 24)));
-  //   const hours = this.pad(
-  //     Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-  //   );
-  //   const mins = this.pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
-  //   const secs = this.pad(Math.floor((time % (1000 * 60)) / 1000));
-  //   return { days, hours, mins, secs };
-  // }
-
   stop() {
     clearInterval(this.intervalID);
   }
@@ -61,7 +51,7 @@ class CountdownTimer {
   }
 }
 
-const myTimer = new CountdownTimer(new Date('Oct 9, 2021'), {
+const myTimer = new CountdownTimer(new Date('Oct 31, 2021'), {
   daysC,
   hoursC,
   minsC,
